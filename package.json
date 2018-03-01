@@ -1,0 +1,19 @@
+{
+  "name": "sheets-parser",
+  "version": "1.0.0",
+  "description": "Simple web service to parse Google Sheets formulas",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Geoffrey Litt",
+  "license": "ISC",
+  "dependencies": {
+    "excel-formula-parser": "^1.0.2",
+    "koa": "^2.5.0",
+    "koa-route": "^3.2.0"
+  },
+  "engines": {
+    "node": "9.5.0"
+  }
+}
